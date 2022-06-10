@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-primary : 'Indie Flower', cursive;
+    --font-secondary : 'Pacifico', cursive;
+}
+
+.titles {
+    font-family: var(--font-secondary);
+}
+
+.texts {
+    font-family: var(--font-primary);
+}
